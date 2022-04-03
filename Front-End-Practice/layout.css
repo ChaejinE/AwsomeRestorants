@@ -1,0 +1,34 @@
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#target {
+  background-color: yellow;
+  /* position : default(static), relative, absolute를 자주 쓴다. */
+  /* position: relative; */
+  /* absolute는 가장 가까운 부모의 상대거리다. 즉, 여기서는 body tag를 따를 것이다. */
+  /* position: absolute; */
+  /* fixed는 window 자체의 상대거리며, 고정시켜린다. */
+  /* position: fixed; */
+  /* sticky는 해당 위치에 붙어서 따라오는 녀석이다. */
+  position: sticky;
+  left: 30px;
+  top: 30px;
+  /* bottom: 0; */
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+#target2 {
+  background-color: red;
+  position: absolute; /* 자신의 부모가 relative인지 확인 한다. container가 relative 가아니면 body를 본다 */
+  left: 30px;
+  top: 30px;
+}
