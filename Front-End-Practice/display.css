@@ -1,0 +1,13 @@
+div {
+  width: 100px;
+  display: inline;
+}
+
+span {
+  width: 100px;
+  display: block;
+}
+
+/* inline-block 특성도 있는데, 이는 박스 모델을 
+   가지면서도, 공간이 충분하면 inline 형태로 하겠다는 뜻이다.
+*/
