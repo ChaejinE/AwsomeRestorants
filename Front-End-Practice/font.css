@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+p {
+  /* Nanum pen Script를 가져오지 못하면 cursive 로 한다. */
+  font-family: "Nanum Pen Script", cursive;
+  /* font-weight : default(400), 100 - 900 range */
+  font-weight: 900;
+  /* text-align: default(left) */
+  text-align: center;
+}
